@@ -13,7 +13,7 @@ import { validateSearch } from '../middleware/searchValidator';
 import socketSyncMiddleware from '../middleware/socketSyncMiddleware';
 import systemController from "../controller/systemController";
 import chatController from "../controller/chatController";
-import adminController from "../controllers/adminController";
+import adminController from "../controller/adminController";
 import ragController from "../controller/ragController";
 import searchHistoryController from "../controller/searchHistoryController";
 let router = express.Router()
